@@ -5,7 +5,7 @@ This is a mod that lets you convert old AE1 world to AE2 worlds by converting pa
 
 How this works.
 
-1. Download upgrade-mc16/appeng-rv14-upgrade.jar from this repo, this is a special build of AE1 that adds names to the item in the world data.
+1. Download [appeng-rv14-upgrade.jar](https://github.com/AlgorithmX2/AEUpgrade/raw/master/upgrade-mc16/appeng-rv14-upgrade.jar) from this repo, this is a special build of AE1 that adds names to the item in the world data.
 2. Back up your world.
 3. Replace your current rv14/rv13 mod with the rv14 upgrade.jar, then open and save your world.
 4. Setup your 1.7 instance and install a bulid of AE Upgrade, and AE2
@@ -26,7 +26,7 @@ If you wish to submit a pull request to fix an issue or improve this conversion,
 ### Reporting issues
 If you encounter an issue with the conversion lt me know hopefully there will be a way to improve or fix it.
 
-### Compiling and packaging AE Uprade
+### Compiling and packaging AE Upgrade
 1. Clone this repo into a new folder.
 2. Use Gradle to setup work space.
  * gradlew setupDecompWorkspace
