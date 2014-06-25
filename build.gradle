@@ -44,6 +44,10 @@ minecraft {
 	 replace "@version@", project.version
 }
 
+dependencies {
+	compile "appeng:appliedenergistics2:rv0-stable-1:dev"
+}
+
 sourceSets {
     main {
         java {

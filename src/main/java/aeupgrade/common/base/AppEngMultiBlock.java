@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import aeupgrade.common.AE1Texture;
-import appeng.integration.modules.helpers.IWailiaForcePickBock;
 import appeng.tile.AEBaseTile;
 import appeng.util.Platform;
 import net.minecraft.block.Block;
@@ -20,7 +19,7 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-public class AppEngMultiBlock extends BlockContainer implements IAEItemOrBlock, IWailiaForcePickBock
+public class AppEngMultiBlock extends BlockContainer implements IAEItemOrBlock
 {
 
 	private int subBlocks;
